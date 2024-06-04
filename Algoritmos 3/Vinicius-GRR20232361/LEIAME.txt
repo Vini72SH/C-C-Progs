@@ -1,0 +1,36 @@
+==== Detalhes da Implementação ===
+
+A estrutura principal para a Implementação do trabalho foi uma trie existencial
+Definida da seguinte forma:
+
+typedef struct Nodo *ApNodo;
+typedef struct Nodo{
+    char *prefix;
+    char characters[NUMCHARACTERS];
+    ApNodo prox[NUMCHARACTERS];
+}Nodo;
+typedef ApNodo Trie;
+
+Onde cada nodo possui um vetor de caractéres e um vetor de apontadores
+Além de um campo prefix que contém o prefixo referente ao nodo atual.
+
+Para permitir que uma palavra fosse prefixo de outra, o algoritmo de inserção
+compara letra por letra do título que está sendo inserido, e se o ponteiro referente à
+aquela letra não possuir um nodo, o algoritmo cria um nodo para aquela letra.
+Assim, avançando na palavra até encontrar o \0, onde mais um nodo é criado
+E todos os seus apontadores são nulos.
+
+==================================
+
+==== Dificuldades do Trabalho ====
+
+A função "c padrão" foi a mais trabalhosa de se implementar
+Pois os coringas poderiam ser combinados de diversas formas e também
+Poderiam haver outros padrões no mesmo comando, por exemplo no comando:
+"c *four *funeral", onde essas duas palavras deveriam estar presentes nos títulos
+Então, tentei implementar da melhor forma, permitindo que mais de um padrão fosse
+buscado por comando, com a condição que esses padrões seriam separados por " ".
+Dessa forma, caso aja algum comando que busque uma palavra composta como padrão,
+apenas a primeira palavra seria buscada nos filmes.
+Para permitir que essa função fosse corretamente implementada, um TAD auxiliar também
+foi inserido no programa, uma lista ligada, que serviu como "rascunho" para aplicar todos os padrões.
