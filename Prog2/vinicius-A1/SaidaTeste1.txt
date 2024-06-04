@@ -1,0 +1,35 @@
+1) Sumario do arquivo
+2) Mostrar
+3) Fim
+Digite sua opcao: 1
+
+Nome [S]
+Sexo [S]
+Idade [N]
+Profissao [S]
+Salario [N]
+EC [S]
+6 variaveis encontradas
+
+Pressione Enter para continuar
+
+1) Sumario do arquivo
+2) Mostrar
+3) Fim
+Digite sua opcao: 2
+
+        Nome Sexo  Idade               Profissao   Salario        EC
+0      Bruna    M     23            Farmacêutico  14567.51  Solteiro
+1  Francisca    F     36              Engenheiro   5160.38    Casado
+2      Paula    M     60             Veterinário  20559.06     Viúvo
+3    Ricardo    F     41             Veterinário  10064.59  Solteiro
+4    Eduardo    F     58      Cientista de Dados  14604.92     Viúvo
+5     Thiago    M     29  Engenheiro de Petróleo   9284.01     Viúvo
+6     Marcos    F     42               Consultor  12548.15     Viúvo
+
+Pressione ENTER para continuar
+
+1) Sumario do arquivo
+2) Mostrar
+3) Fim
+Digite sua opcao: 3

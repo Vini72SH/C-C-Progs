@@ -1,0 +1,41 @@
+1) Sumario do arquivo
+2) Mostrar
+3) Fim
+Digite sua opcao: 1
+
+Nome [S]
+Sexo [S]
+Idade [N]
+Profissao [S]
+Salario [N]
+EC [S]
+6 variaveis encontradas
+
+Pressione Enter para continuar
+
+1) Sumario do arquivo
+2) Mostrar
+3) Fim
+Digite sua opcao: 2
+
+             Nome Sexo  Idade                Profissao   Salario          EC
+0         Marcia    M   18.0                  Gerente  22227.04      Casado
+1          Luana    F   51.0                Arquiteto  13314.47      Casado
+2       Fernanda    F   64.0        Gerente de Vendas   7957.34  Divorciado
+3        Gustavo    M   19.0                  Gerente       NaN      Casado
+4        Juliana    M   65.0     Analista de Sistemas  13124.25  Divorciado
+...          ...  ...    ...                      ...       ...         ...
+999995     Lucas    M   30.0            Gerente de TI  21135.32       Viúvo
+999996    Carlos    M   32.0                  Gerente  12653.52      Casado
+999997     Luana    M   46.0            Diretor (CTO)  20170.73      Casado
+999998  Anderson    F   28.0  Diretor Executivo (CEO)   4238.22    Solteiro
+999999  Gabriela    F   47.0               Engenheiro  18571.24      Casado
+
+[1000000 rows x 6 columns]
+
+Pressione ENTER para continuar
+
+1) Sumario do arquivo
+2) Mostrar
+3) Fim
+Digite sua opcao: 3

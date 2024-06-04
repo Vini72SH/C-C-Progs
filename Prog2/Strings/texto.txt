@@ -1,0 +1,8 @@
+Nome,Idade,Sexo
+Joao,15,M
+Eduarda,17,F
+Pedro,23,M
+Cleber,19,M
+Dani,17,F
+Math,18,M
+Gabi,19,F
